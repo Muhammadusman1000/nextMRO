@@ -4,6 +4,7 @@ import { useSelector } from "react-redux";
 
 const ProfileView = () => {
   const select = useSelector((state) => state.data);
+  console.log(select);
 
   return (
     <div>
